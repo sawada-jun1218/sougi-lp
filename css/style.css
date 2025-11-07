@@ -201,9 +201,24 @@ footer {
 }
 
 .price-item:hover,
+.price-item:focus,
 .price-item:active {
     transform: scale(.97);
     box-shadow: 0 4px 16px rgba(0, 0, 0, .2);
+}
+
+.section-title {
+    position: relative;
+}
+
+.section-title::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 2px;
+    background: #fff8;
+        /* 白＋薄め */
+    margin: 12px auto 0;
 }
 
 /* レスポンシブ */
