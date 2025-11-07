@@ -61,13 +61,13 @@ ul {
 
 /* header */
 header {
-    background: #413e3e;
+    background-color: rgba(24, 24, 24, 0.9);
     color: #fff;
     padding: 18px 0;
 }
 
-header .logo {
-    font-size: 24px;
+.site-logo {
+    font-size: 25px;
 }
 
 .header-inner {
@@ -194,6 +194,16 @@ footer {
 
 .section-gray {
     background: #f0eded;
+}
+
+.price-item {
+    transition: transform .25s ease, box-shadow .25s ease;
+}
+
+.price-item:hover,
+.price-item:active {
+    transform: scale(.97);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, .2);
 }
 
 /* レスポンシブ */
