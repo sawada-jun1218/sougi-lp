@@ -18,7 +18,7 @@ img {
 }
 
 .section {
-    padding: 60px 0;
+    padding: 60px 24px;
     background: #fafafa;
     width: 100%;
 }
@@ -157,4 +157,10 @@ footer {
     height: 3px;
     background: #333;
     margin: 16px auto 0;
+}
+
+@media (max-width: 768px) {
+    .section {
+        padding: 50px 16px;
+    }
 }
