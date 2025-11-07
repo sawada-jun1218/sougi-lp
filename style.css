@@ -1,0 +1,159 @@
+/* 共通 */
+body {
+    font-family: "Yu Gothic", sans-serif;
+    margin: 0;
+    line-height: 1.7;
+    color: #222;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.container {
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.section {
+    padding: 60px 0;
+    background: #fafafa;
+    width: 100%;
+}
+
+.section-title {
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    opacity: 0.5;
+    transition: .4s;
+        /* ←自然にする */
+}
+
+ul {
+    list-style: none;
+    text-align: center;
+}
+
+/* header */
+header {
+    background: #413e3e;
+    color: #fff;
+    padding: 18px 0;
+}
+
+header .logo {
+    font-size: 24px;
+}
+
+.header-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    gap: 24px;
+}
+
+.nav-list a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+p{
+    text-align: center;
+}
+
+/* hero */
+.hero {
+    background: url("../img/hero.jpg") center/cover no-repeat;
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.hero h2 {
+    font-size: 42px;
+    color: #fff;
+    text-shadow: 0 0 15px rgba(0, 0, 0, .7);
+}
+
+.lead {
+    color: #fff;
+}
+
+/* こだわり */
+.concept-text {
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* menu */
+.menu-items {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+    text-align: center;
+}
+
+.menu-item h3 {
+    font-size: 20px;
+    margin: 12px 0 6px;
+}
+
+h4 {
+    text-align: center;
+}
+
+/* access */
+.access {
+    text-align: center;
+}
+
+/* footer */
+footer {
+    background: #181818;
+    color: #fff;
+    text-align: center;
+    padding: 14px 0;
+    font-size: 14px;
+}
+
+/* .placeholder {
+    height: 240px;
+    background: linear-gradient(135deg, #ffffff, #e6f4ff);
+    border-radius: 8px;
+} */
+.section h2 {
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.section h2::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #333;
+    margin: 16px auto 0;
+}
