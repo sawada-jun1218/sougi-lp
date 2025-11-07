@@ -207,14 +207,15 @@ footer {
     box-shadow: 0 4px 16px rgba(0, 0, 0, .2);
 }
 
-.faq-list dt {
+/* FAQ */
+.faq-box dt {
     font-weight: bold;
-    margin-top: 24px;
+    margin-top: 16px;
 }
 
-.faq-list dd {
-    margin: 8px 0 16px 0;
-    line-height: 1.6;
+.faq-box dd {
+    margin: 0 0 12px 0;
+    line-height: 1.8;
 }
 
 /* レスポンシブ */
