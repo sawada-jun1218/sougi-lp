@@ -37,7 +37,7 @@ a {
 a:hover {
     opacity: 0.5;
     transition: .4s;
-        /* ←自然にする */
+    /* ←自然にする */
 }
 
 ul {
@@ -74,7 +74,7 @@ header .logo {
     font-weight: bold;
 }
 
-p{
+p {
     text-align: center;
 }
 
