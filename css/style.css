@@ -209,6 +209,8 @@ footer {
 
 .section-title {
     position: relative;
+    padding-bottom: 12px;
+        /* 下に余白 */
 }
 
 .section-title::after {
@@ -216,9 +218,9 @@ footer {
     display: block;
     width: 60px;
     height: 2px;
-    background: #fff8;
-        /* 白＋薄め */
-    margin: 12px auto 0;
+    padding-bottom: 12px;
+        /* 下に余白 */
+    margin: 8px auto 0;
 }
 
 /* レスポンシブ */
