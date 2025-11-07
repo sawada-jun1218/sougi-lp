@@ -46,10 +46,11 @@ img {
 a {
     color: #fff;
     text-decoration: none;
+    font-size: 20px;
 }
 
 a:hover {
-    opacity: 0.9;
+    opacity: 0.8;
     transition: .4s;
 }
 
@@ -170,10 +171,11 @@ footer {
 .btn-mail {
     display: inline-block;
     padding: 12px 24px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     background: #554b9d;
     color: #fff;
     text-decoration: none;
-    border-radius: 6px;
+    border-radius: 25px;
     transition: all 0.3s ease;
 }
 
@@ -182,10 +184,14 @@ footer {
     transform: translateY(-2px);
 }
 
+.section-gray {
+    background: #e7e2e2;
+}
+
 /* レスポンシブ */
 @media (max-width: 768px) {
     body {
-        font-size: 15px;
+        font-size: 24px;
         line-height: 1.5;
         letter-spacing: 0.01em;
     }
