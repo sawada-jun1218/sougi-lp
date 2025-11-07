@@ -147,12 +147,13 @@ footer {
     font-size: 28px;
     text-align: center;
     margin-bottom: 24px;
+    line-height: 20px;
 }
 
 .section h2::after {
     content: "";
     display: block;
-    width: 60px;
+    width: 100px;
     height: 3px;
     background: #333;
     margin: 16px auto 0;
