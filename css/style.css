@@ -37,7 +37,7 @@ a {
 a:hover {
     opacity: 0.5;
     transition: .4s;
-        /* ←自然にする */
+    /* ←自然にする */
 }
 
 ul {
@@ -74,7 +74,7 @@ header .logo {
     font-weight: bold;
 }
 
-p{
+p {
     text-align: center;
 }
 
@@ -143,3 +143,18 @@ footer {
     background: linear-gradient(135deg, #ffffff, #e6f4ff);
     border-radius: 8px;
 } */
+.section h2 {
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 24px;
+    line-height: 20px;
+}
+
+.section h2::after {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 3px;
+    background: #333;
+    margin: 16px auto 0;
+}
