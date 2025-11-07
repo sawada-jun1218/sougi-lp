@@ -207,22 +207,6 @@ footer {
     box-shadow: 0 4px 16px rgba(0, 0, 0, .2);
 }
 
-.section-title {
-    position: relative;
-    padding-bottom: 12px;
-        /* 下に余白 */
-}
-
-.section-title::after {
-    content: "";
-    display: block;
-    width: 60px;
-    height: 2px;
-    padding-bottom: 12px;
-        /* 下に余白 */
-    margin: 8px auto 0;
-}
-
 /* レスポンシブ */
 @media (max-width: 768px) {
     body {
