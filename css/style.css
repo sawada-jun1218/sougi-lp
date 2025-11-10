@@ -288,6 +288,15 @@ footer {
         padding: 10px 20px;
     }
 
+    .btn-tel {
+        display: block;
+        width: 70%;
+        text-align: center;
+        margin: 0 auto;
+        font-size: 14px;
+        padding: 10px 15px;
+    }
+
     .hero-inner {
         width: 95%;
         max-width: none;
