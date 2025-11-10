@@ -118,6 +118,31 @@ p {
     text-shadow: 0 0 15px rgba(0, 0, 0, .7);
 }
 
+/* hero内のボタン並び */
+.hero-inner .cta {
+    display: flex;
+    flex-wrap: wrap;
+    /* 幅狭いと折り返す */
+    gap: 12px;
+    /* ボタン間のスペース */
+    justify-content: center;
+    margin-top: 16px;
+}
+
+.hero-inner .cta a {
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 6px;
+    color: #fff;
+    background-color: #554b9d;
+    /* メールと電話同じ色でもOK */
+    transition: all 0.3s ease;
+}
+
+.hero-inner .cta a:hover {
+    opacity: 0.7;
+}
+
 .lead {
     color: #fff;
 }
@@ -189,7 +214,7 @@ footer {
 
 .btn-mail:hover {
     background-color: #463c80;
-    transform: translateY(-2px);
+    transform: translateY(-5px);
 }
 
 .section-gray {
@@ -216,6 +241,30 @@ footer {
 .faq-box dd {
     margin: 0 0 12px 0;
     line-height: 1.8;
+}
+
+.btn-tel {
+    display: inline-block;
+    background: #463c80;
+    color: #fff;
+    padding: 14px 24px;
+    border-radius: 6px;
+    text-decoration: none;
+    /* font-size: 18px; */
+    /* font-weight: 600; */
+    transition: .3s;
+}
+
+.btn-tel:hover {
+    opacity: 0.8;
+    transform: translateY(-3px);
+}
+
+.tel-note {
+    font-size: 16px;
+    text-align: center;
+    margin-top: 8px;
+    color: #fff;
 }
 
 /* レスポンシブ */
@@ -257,6 +306,31 @@ footer {
 
     .hero-inner p.lead {
         font-size: 15px;
+    }
+
+    /* hero内のボタン並び */
+    .hero-inner .cta {
+        display: flex;
+        flex-wrap: wrap;
+    /* 幅狭いと折り返す */
+        gap: 12px;
+    /* ボタン間のスペース */
+        justify-content: center;
+        margin-top: 16px;
+    }
+
+    .hero-inner .cta a {
+        padding: 8px 15px;
+        text-decoration: none;
+        border-radius: 6px;
+        color: #fff;
+        background-color: #463c80;
+    /* メールと電話同じ色でもOK */
+        transition: 0.3s;
+    }
+
+    .hero-inner .cta a:hover {
+        opacity: 0.7;
     }
 
     header {
